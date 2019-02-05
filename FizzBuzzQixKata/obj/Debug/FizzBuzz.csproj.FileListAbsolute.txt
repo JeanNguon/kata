@@ -1,0 +1,10 @@
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\bin\Debug\FizzBuzzQixKata.dll
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\bin\Debug\FizzBuzzQixKata.pdb
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\bin\Debug\nunit.framework.dll
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\bin\Debug\nunit.framework.pdb
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\bin\Debug\nunit.framework.xml
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\obj\Debug\FizzBuzz.csprojAssemblyReference.cache
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\obj\Debug\FizzBuzz.csproj.CopyComplete
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\obj\Debug\FizzBuzzQixKata.dll
+C:\Users\jnguon\Documents\Visual Studio 2017\Projects\kata\Fizzbuzz\FizzBuzzQixKata\FizzBuzzQixKata\obj\Debug\FizzBuzzQixKata.pdb
