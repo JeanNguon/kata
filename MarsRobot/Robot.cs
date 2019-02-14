@@ -5,15 +5,17 @@ namespace MarsRobot
     internal class Robot
     {
         private IDirection direction;
+        private Position position;
 
-        public Robot()
+        public Robot(IDirection direction, Position position)
         {
-            this.direction = new NorthDirection();
+            this.direction = direction;
+            this.position = position;
         }
 
         public string Execute(string instructions)
         {
-            foreach(char instruction in instructions)
+            foreach (char instruction in instructions)
             {
                 if (instruction == 'L')
                 {
@@ -24,54 +26,14 @@ namespace MarsRobot
                 {
                     this.direction = this.direction.RotateRight();
                 }
+
+                if (instruction == 'F')
+                {
+                    this.position = this.direction.MoveForward(this.position);
+                }
             }
 
-            return "0:0:" + this.direction;
+            return $"{this.position}:{this.direction}";
         }
-    }
-
-    internal interface IDirection
-    {
-        IDirection RotateLeft();
-        IDirection RotateRight();
-    }
-
-    internal class NorthDirection : IDirection
-    {
-        public IDirection RotateLeft() => new WestDirection();
-
-        public IDirection RotateRight() => new EastDirection();
-
-        public override string ToString() => "N";
-    }
-
-    internal class WestDirection : IDirection
-    {
-        public IDirection RotateLeft() => new SouthDirection();
-
-        public IDirection RotateRight() => new NorthDirection();
-
-        public override string ToString() => "W";
-
-    }
-
-    internal class EastDirection : IDirection
-    {
-        public IDirection RotateLeft() => new NorthDirection();
-
-        public IDirection RotateRight() => new SouthDirection();
-
-        public override string ToString() => "E";
-
-    }
-
-    internal class SouthDirection : IDirection
-    {
-        public IDirection RotateLeft() => new EastDirection();
-
-        public IDirection RotateRight() => new WestDirection();
-
-        public override string ToString() => "S";
-
     }
 }
